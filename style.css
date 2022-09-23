@@ -1,0 +1,125 @@
+a {
+    text-decoration: none;
+    color: red;
+}
+
+.menu {
+    height: 100vh;
+    background-color: #339c95;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.people {
+    height: 100vh;
+    background-color: #beecd5;
+    overflow: auto;
+}
+
+.imgrounded {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.chatheader {
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.message-body {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.chat {
+    height: 100vh;
+    overflow: auto;
+    background-color: antiquewhite;
+}
+
+.name-center {
+    margin-top: 15px;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.fixed1 {
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    width: 80%;
+}
+
+.chatheader1 {
+    height: 50px;
+    width: 67%;
+    background-color: beige;
+}
+
+.end-message {
+    justify-self: flex-end;
+    background-color: rgb(138, 182, 211);
+}
+
+.m-start {
+    border: 2px solid rgb(247, 247, 247);
+    padding: 10px;
+    border-radius: 50px 20px;
+    background-color: #fff;
+}
+
+.m-end {
+    border: 2px solid rgb(243, 243, 243);
+    padding: 10px;
+    border-radius: 50px 20px;
+    background-color: green;
+    color: #fff;
+}
+
+.message-text {
+    margin-top: 0.5rem;
+    border-radius: 1rem !important;
+    width: 95% !important;
+}
+.send-button{
+    margin-left: -40px;
+}
+.contact-user{
+    cursor: pointer;
+}
+
+.margin-custom{
+    margin-left:32.35% !important ;
+    cursor: pointer;
+}
+
+
+
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 1px;
+	height: 4px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+	border: 2px solid #555555;
+}

@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./node_modules/bootstrap-for-electron/resources/bootstrap.min.css">
+  <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+
+  <title>Whatsapp</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-1 menu ">
+        <ul>
+          <li><i class="fa fa-solid fa-bars fa-10x mt-5"></i></li>
+          <li><i class="fa fa-solid fa-plus fa-10x mt-5"></i></li>
+          <li><i class="fa fa-solid fa-plus fa-10x mt-5"></i></li>
+        </ul>
+      </div>
+      <div class="col-3 people">
+        <div class="mt-2">
+          Whatsapp
+          <input type="search" class="form-control" name="search" id="search">
+        </div>
+        <div class="mt-2" id="userProfile">
+          <!-- <div class="row p-2">
+            <div class="col-3"><img src="./img.jpg" alt="" srcset="" class="imgrounded"></div>
+            <div class="col name-center">
+              <p>Kanchan Kumar</p>
+            </div>
+          </div>
+          <div class="row p-2">
+            <div class="col-3 "><img src="./img.jpg" alt="" srcset="" class="imgrounded"></div>
+            <div class="col name-center">
+              <p>Kanchan Kumar</p>
+            </div>
+          </div>
+          <div class="row p-2">
+            <div class="col-3 "><img src="./img.jpg" alt="" srcset="" class="imgrounded"></div>
+            <div class="col name-center">
+              <p>Kanchan Kumar</p>
+            </div>
+          </div>
+          <div class="row p-2">
+            <div class="col-3 "><img src="./img.jpg" alt="" srcset="" class="imgrounded"></div>
+            <div class="col name-center">
+              <p>Kanchan Kumar</p>
+            </div>
+          </div>
+          <div class="row p-2">
+            <div class="col-3 "><img src="./img.jpg" alt="" srcset="" class="imgrounded"></div>
+            <div class="col name-center">
+              <p>Kanchan Kumar</p>
+            </div>
+          </div>
+          <div class="row p-2">
+            <div class="col-3 "><img src="./img.jpg" alt="" srcset="" class="imgrounded"></div>
+            <div class="col name-center">
+              <p>Kanchan Kumar</p>
+            </div>
+          </div>
+          <div class="row p-2">
+            <div class="col-3 "><img src="./img.jpg" alt="" srcset="" class="imgrounded"></div>
+            <div class="col name-center">
+              <p>Kanchan Kumar</p>
+            </div>
+          </div>
+          <div class="row p-2">
+            <div class="col-3 "><img src="./img.jpg" alt="" srcset="" class="imgrounded"></div>
+            <div class="col name-center">
+              <p>Kanchan Kumar</p>
+            </div>
+          </div>
+          <div class="row p-2">
+            <div class="col-3 "><img src="./img.jpg" alt="" srcset="" class="imgrounded"></div>
+            <div class="col name-center">
+              <p>Kanchan Kumar</p>
+            </div>
+          </div>
+          <div class="row p-2">
+            <div class="col-3 "><img src="./img.jpg" alt="" srcset="" class="imgrounded"></div>
+            <div class="col name-center">
+              <p>Kanchan Kumar</p>
+            </div>
+          </div>
+          <div class="row p-2">
+            <div class="col-3 "><img src="./img.jpg" alt="" srcset="" class="imgrounded"></div>
+            <div class="col name-center">
+              <p>Kanchan Kumar</p>
+            </div>
+          </div>
+          <div class="row p-2">
+            <div class="col-3 "><img src="./img.jpg" alt="" srcset="" class="imgrounded"></div>
+            <div class="col name-center">
+              <p>Kanchan Kumar</p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <div class="col-8 chat" id="compelet_profile_chat">
+        <div class="row chatheader fixed" id="messageProfile">
+          <!-- <div class="col-3 p-2"><img src="./img.jpg" alt="" srcset="" class="imgrounded"></div> -->
+          <div class="col name-center">
+            <!-- <p>Kanchan Kumar</p> -->
+          </div>
+        </div>
+        <!-- <div class="row message-body justify-content-end ">
+          <div class="col-auto end-message m-end">
+            One of three columns first
+          </div>
+          
+        </div>
+        <div class="row message-body justify-content-start ">
+          <div class="col-auto end-message m-start">
+            One of three columns
+          </div>
+          
+        </div>
+        <div class="row message-body justify-content-end ">
+          <div class="col-auto end-message m-end">
+            One of three columns
+          </div>
+        </div>
+        <div class="row message-body justify-content-start ">
+          <div class="col-auto end-message m-start">
+            One of three columns
+          </div>
+          
+        </div>
+        <div class="row message-body justify-content-end ">
+          <div class="col-auto end-message m-end" >
+            One of three columns
+          </div>
+          
+        </div>
+        <div class="row message-body justify-content-start ">
+          <div class="col-auto end-message m-start">
+            One of three columns
+          </div>
+          
+        </div>
+        <div class="row message-body justify-content-end ">
+          <div class="col-auto end-message m-end">
+            One of three columns
+          </div>
+          
+        </div>
+        <div class="row message-body justify-content-start ">
+          <div class="col-auto end-message m-start">
+            One of three columns
+          </div>
+          
+        </div>
+        <div class="row message-body justify-content-end ">
+          <div class="col-auto end-message m-end">
+            This property can have from one to four values. Here are the rules:
+        Four values - border-radius: 15px 50px 30px 5px; (first value applies to top-left corner, second value applies to top-right corner, third value applies to bottom-right corner, and fourth value applies to bottom-left corner):
+          </div>
+          
+        </div>
+        <div class="row message-body justify-content-start ">
+          <div class="col-auto end-message m-start">
+            One of three columns the most beautiful man jai ho kanchan baab ki jai 
+          </div>
+          
+        </div>
+        <div class="row message-body justify-content-end ">
+          <div class="col-auto end-message m-end">
+            One of three columns last 
+            <i class="fa fa-duotone fa-paper-plane"></i>
+          </div>
+        </div> -->
+       
+      </div>
+    </div>
+
+    <div class="row chatheader1 fixed1 margin-custom">
+      <div class="col">
+        <input type="text" name="Text" class="p-2 message-text form-control fa fa-duotone fa-paper-plane" id="Text" placeholder="Write message!">
+        <i class="fa fa-duotone fa-paper-plane send-button" id="send-button"></i>
+      </div>
+    </div>
+
+
+  </div>
+  <script src="./api.js"></script>
+  <script type="text/javascript"
+    src="./node_modules/bootstrap-for-electron/resources/jquery-3.3.1.slim.min.js"></script>
+  <script type="text/javascript" src="./node_modules/bootstrap-for-electron/resources/popper.min.js"></script>
+  <script type="text/javascript" src="./node_modules/bootstrap-for-electron/resources/bootstap.min.js"></script>
+</body>
+
+</html>
